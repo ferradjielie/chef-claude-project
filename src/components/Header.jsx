@@ -2,7 +2,11 @@
  
  function Header() { 
     return ( 
-   <img src={claudeIcone} alt="cooker icone" />
+   <header className='headerBox'>
+         <img  className='claudeIcon'   src={claudeIcone} alt="cooker icone" />
+         <h1>Chef Claude</h1>
+         
+   </header>
   )
  }
 
